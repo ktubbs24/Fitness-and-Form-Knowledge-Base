@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
       "basename": "PORTLAND FITNESS STEWARD STARTUP GUIDE",
       "path": "PORTLAND FITNESS STEWARD STARTUP GUIDE.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Client Allergy Template",
       "path": "Templates/Client Allergy Template.md"
-    },
-    {
-      "basename": "Lisa - Allergy Notes",
-      "path": "08 Client CRM (private)/Clients/Lisa/Documents/Allergies/Lisa - Allergy Notes.md"
     }
   ],
   "omittedPaths": [],

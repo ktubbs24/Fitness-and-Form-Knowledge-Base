@@ -8,5 +8,6 @@
   "buttons",
   "template-folder",
   "folder-notes",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-git"
 ]
