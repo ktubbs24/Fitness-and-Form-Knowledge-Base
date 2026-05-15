@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{"id":"home","type":"file","file":"Fitness Home.md","x":0,"y":0,"width":360,"height":220,"color":"1"},
+		{"id":"start","type":"file","file":"START HERE - Vault Operating Manual.md","x":-520,"y":-280,"width":360,"height":220,"color":"2"},
+		{"id":"portland","type":"file","file":"PORTLAND FITNESS STEWARD STARTUP GUIDE.md","x":-520,"y":0,"width":360,"height":220,"color":"2"},
+		{"id":"daily","type":"file","file":"00 Daily Logs/Daily Logs Hub.md","x":-520,"y":280,"width":360,"height":220,"color":"3"},
+		{"id":"workouts","type":"file","file":"01 Workouts (raw logs)/Workouts.md","x":-90,"y":320,"width":360,"height":220,"color":"3"},
+		{"id":"observations","type":"file","file":"02 Observations (raw thinking)/_Observations Hub.md","x":340,"y":320,"width":360,"height":220,"color":"3"},
+		{"id":"site","type":"file","file":"07 Fitness Site (public)/00 Start Here/Movement Under Discipline and Training Archive.md","x":520,"y":-280,"width":420,"height":240,"color":"4"},
+		{"id":"movement","type":"file","file":"07 Fitness Site (public)/02 Movement Library/Movement Library Index.md","x":1000,"y":-420,"width":360,"height":220,"color":"4"},
+		{"id":"anatomy","type":"file","file":"07 Fitness Site (public)/02 Movement Library/Anatomy/Anatomy Index.md","x":1000,"y":-160,"width":360,"height":220,"color":"4"},
+		{"id":"disciplines","type":"file","file":"07 Fitness Site (public)/02 Movement Library/Disciplines/Disciplines Index.md","x":1000,"y":100,"width":360,"height":220,"color":"4"},
+		{"id":"questions","type":"file","file":"07 Fitness Site (public)/09 Questions/Questions Index.md","x":1420,"y":-420,"width":360,"height":220,"color":"5"},
+		{"id":"vocabulary","type":"file","file":"07 Fitness Site (public)/10 Vocabulary/Vocabulary Index.md","x":1420,"y":-160,"width":360,"height":220,"color":"5"},
+		{"id":"decision","type":"file","file":"07 Fitness Site (public)/16 Decision Making/Decision Making Index.md","x":1420,"y":100,"width":360,"height":220,"color":"5"},
+		{"id":"crm","type":"file","file":"08 Client CRM (private)/Client CRM Hub.md","x":0,"y":-420,"width":360,"height":220,"color":"6"},
+		{"id":"lisa","type":"file","file":"08 Client CRM (private)/Clients/Lisa/Lisa - Client Dashboard.md","x":0,"y":-700,"width":360,"height":220,"color":"6"},
+		{"id":"dashboards","type":"file","file":"05 Dashboards/Dashboards Hub.md","x":430,"y":40,"width":360,"height":220,"color":"3"},
+		{"id":"templates","type":"file","file":"Templates/Templates.md","x":-90,"y":620,"width":360,"height":220,"color":"2"},
+		{"id":"assets","type":"file","file":"Assets/Assets.md","x":340,"y":620,"width":360,"height":220,"color":"2"},
+		{"id":"legend","type":"text","text":"# Visual Vault Map\\n\\nUse this canvas as the visual home screen.\\n\\nBlue/orange nodes: operating guides.\\nGreen nodes: personal tracking.\\nPurple/blue nodes: public site.\\nPink nodes: private CRM.\\n\\nOpen the node, then use folder notes/buttons from there.","x":-980,"y":-280,"width":380,"height":320,"color":"1"}
+	],
+	"edges":[
+		{"id":"e-home-start","fromNode":"home","fromSide":"left","toNode":"start","toSide":"right"},
+		{"id":"e-home-portland","fromNode":"home","fromSide":"left","toNode":"portland","toSide":"right"},
+		{"id":"e-home-daily","fromNode":"home","fromSide":"bottom","toNode":"daily","toSide":"right"},
+		{"id":"e-home-workouts","fromNode":"home","fromSide":"bottom","toNode":"workouts","toSide":"top"},
+		{"id":"e-home-observations","fromNode":"home","fromSide":"bottom","toNode":"observations","toSide":"top"},
+		{"id":"e-home-site","fromNode":"home","fromSide":"right","toNode":"site","toSide":"left"},
+		{"id":"e-site-movement","fromNode":"site","fromSide":"right","toNode":"movement","toSide":"left"},
+		{"id":"e-site-anatomy","fromNode":"site","fromSide":"right","toNode":"anatomy","toSide":"left"},
+		{"id":"e-site-disciplines","fromNode":"site","fromSide":"right","toNode":"disciplines","toSide":"left"},
+		{"id":"e-site-questions","fromNode":"movement","fromSide":"right","toNode":"questions","toSide":"left"},
+		{"id":"e-site-vocab","fromNode":"anatomy","fromSide":"right","toNode":"vocabulary","toSide":"left"},
+		{"id":"e-site-decision","fromNode":"disciplines","fromSide":"right","toNode":"decision","toSide":"left"},
+		{"id":"e-home-crm","fromNode":"home","fromSide":"top","toNode":"crm","toSide":"bottom"},
+		{"id":"e-crm-lisa","fromNode":"crm","fromSide":"top","toNode":"lisa","toSide":"bottom"},
+		{"id":"e-home-dashboards","fromNode":"home","fromSide":"right","toNode":"dashboards","toSide":"left"},
+		{"id":"e-workouts-templates","fromNode":"workouts","fromSide":"bottom","toNode":"templates","toSide":"top"},
+		{"id":"e-observations-assets","fromNode":"observations","fromSide":"bottom","toNode":"assets","toSide":"top"}
+	]
+}

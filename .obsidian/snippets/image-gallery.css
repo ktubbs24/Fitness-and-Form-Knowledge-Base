@@ -1,0 +1,37 @@
+/*
+Automatic image presentation for notes.
+
+Behavior:
+- Single images become centered, rounded, constrained images.
+- Multiple images embedded in the same paragraph become a responsive gallery.
+- Separate image paragraphs remain stacked as clean image cards.
+*/
+
+.markdown-preview-view p:has(.image-embed),
+.markdown-preview-view p:has(img) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem;
+  align-items: start;
+  margin-block: 0.75rem;
+}
+
+.markdown-preview-view .image-embed,
+.markdown-preview-view img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.markdown-preview-view p:has(.image-embed:only-child),
+.markdown-preview-view p:has(img:only-child) {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.markdown-preview-view p:has(.image-embed:only-child) .image-embed,
+.markdown-preview-view p:has(img:only-child) img {
+  margin-inline: auto;
+}
+

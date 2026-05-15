@@ -1,0 +1,16 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "day_of_week": "multitext",
+    "status": "multitext",
+    "date": "date",
+    "observation_type": "multitext",
+    "discipline": "multitext",
+    "body_area": "multitext",
+    "linked_daily_logs": "text",
+    "theme": "multitext",
+    "note_type": "multitext"
+  }
+}

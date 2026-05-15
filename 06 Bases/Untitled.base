@@ -1,0 +1,5 @@
+views:
+  - type: cards
+    name: Cards
+    markers: number
+    indentProperties: false

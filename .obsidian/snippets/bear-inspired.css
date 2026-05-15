@@ -1,0 +1,274 @@
+/*
+Bear-inspired Obsidian styling.
+
+Font note:
+- This snippet asks for Bear Sans UI, Bear Sans UI Heading, and Roboto Mono.
+- If those fonts are not installed locally, Obsidian will fall back to system fonts.
+- Install the fonts on macOS first if you want exact font matching.
+*/
+
+body {
+  --font-text-theme: "Bear Sans UI", -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  --font-interface-theme: "Bear Sans UI", -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  --font-heading-theme: "Bear Sans UI Heading", "Bear Sans UI", -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+  --font-monospace-theme: "Roboto Mono", "SF Mono", Menlo, Consolas, monospace;
+
+  --font-text-size: 16pt;
+  --line-height-normal: 1.5em;
+  --line-width: 48em;
+  --p-spacing: 0;
+  --heading-spacing: 1.25rem;
+
+  --radius-s: 6px;
+  --radius-m: 8px;
+  --radius-l: 10px;
+}
+
+body.theme-light {
+  --background-primary: #fbf6ee;
+  --background-secondary: #f3eadf;
+  --background-secondary-alt: #eadccb;
+  --background-modifier-border: #ddcdbc;
+  --background-modifier-hover: #f0e2d2;
+
+  --text-normal: #312923;
+  --text-muted: #75685d;
+  --text-faint: #9a8b7c;
+  --text-accent: #b6542c;
+  --text-accent-hover: #8f3f22;
+
+  --interactive-accent: #b6542c;
+  --interactive-accent-hover: #8f3f22;
+  --link-color: #a94724;
+  --link-color-hover: #7f351c;
+  --link-decoration: none;
+  --link-external-decoration: none;
+  --tag-color: #7b4a31;
+  --tag-background: #ead8c5;
+  --tag-background-hover: #dfc4aa;
+  --selection-background: rgba(214, 124, 74, 0.28);
+  --text-highlight-bg: rgba(255, 212, 92, 0.45);
+}
+
+body.theme-dark {
+  --background-primary: #1f2227;
+  --background-secondary: #191c21;
+  --background-secondary-alt: #242830;
+  --background-modifier-border: #343a44;
+  --background-modifier-hover: #2a3038;
+
+  --text-normal: #e7e2dc;
+  --text-muted: #aaa29a;
+  --text-faint: #7f8790;
+  --text-accent: #58a6ff;
+  --text-accent-hover: #8fc5ff;
+
+  --interactive-accent: #58a6ff;
+  --interactive-accent-hover: #8fc5ff;
+  --link-color: #66b2ff;
+  --link-color-hover: #9bd0ff;
+  --link-decoration: none;
+  --link-external-decoration: none;
+  --tag-color: #d8eaff;
+  --tag-background: #25384d;
+  --tag-background-hover: #304d6b;
+  --selection-background: rgba(88, 166, 255, 0.28);
+  --text-highlight-bg: rgba(255, 196, 61, 0.34);
+  --bear-heading-color: #8fc5ff;
+  --bear-property-color: #8fc5ff;
+}
+
+.workspace,
+.workspace-split.mod-root,
+.workspace-leaf-content,
+.view-content {
+  background: var(--background-primary);
+}
+
+.markdown-source-view.mod-cm6 .cm-scroller,
+.markdown-reading-view {
+  font-family: var(--font-text-theme);
+  font-size: var(--font-text-size);
+  line-height: var(--line-height-normal);
+  letter-spacing: 0;
+}
+
+.markdown-preview-view,
+.markdown-source-view.mod-cm6 .cm-content {
+  max-width: var(--line-width);
+  margin: 0 auto;
+  padding-inline: 2rem;
+}
+
+.markdown-preview-view p,
+.markdown-preview-view ul,
+.markdown-preview-view ol,
+.markdown-preview-view blockquote,
+.markdown-preview-view table {
+  margin-block: 0;
+}
+
+.markdown-preview-view p + p,
+.markdown-preview-view ul + p,
+.markdown-preview-view ol + p,
+.markdown-preview-view p + ul,
+.markdown-preview-view p + ol {
+  margin-top: 0;
+}
+
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-source-view.mod-cm6 .cm-header {
+  font-family: var(--font-heading-theme);
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+body.theme-dark .inline-title,
+body.theme-dark .view-header-title,
+body.theme-dark .markdown-preview-view h1,
+body.theme-dark .markdown-preview-view h2,
+body.theme-dark .markdown-preview-view h3,
+body.theme-dark .markdown-preview-view h4,
+body.theme-dark .markdown-source-view.mod-cm6 .cm-header,
+body.theme-dark .markdown-source-view.mod-cm6 .cm-header-1,
+body.theme-dark .markdown-source-view.mod-cm6 .cm-header-2,
+body.theme-dark .markdown-source-view.mod-cm6 .cm-header-3,
+body.theme-dark .markdown-source-view.mod-cm6 .cm-header-4 {
+  color: var(--bear-heading-color);
+}
+
+body.theme-dark .metadata-property-key,
+body.theme-dark .metadata-property-value,
+body.theme-dark .metadata-property-icon,
+body.theme-dark .metadata-property-key-input,
+body.theme-dark .metadata-input,
+body.theme-dark .metadata-container .multi-select-pill,
+body.theme-dark .markdown-source-view.mod-cm6 .cm-hmd-frontmatter,
+body.theme-dark .markdown-source-view.mod-cm6 .cm-hmd-frontmatter.cm-def,
+body.theme-dark .markdown-source-view.mod-cm6 .cm-hmd-frontmatter.cm-meta,
+body.theme-dark .markdown-source-view.mod-cm6 .cm-hmd-frontmatter.cm-atom,
+body.theme-dark .markdown-source-view.mod-cm6 .cm-hmd-frontmatter.cm-string {
+  color: var(--bear-property-color);
+}
+
+.markdown-preview-view h1,
+.markdown-source-view.mod-cm6 .cm-header-1 {
+  font-size: 2rem;
+  line-height: 1.18;
+  margin-block: 0 1rem;
+}
+
+.markdown-preview-view h2,
+.markdown-source-view.mod-cm6 .cm-header-2 {
+  font-size: 1.38rem;
+  line-height: 1.25;
+  margin-block: var(--heading-spacing) 0.35rem;
+}
+
+.markdown-preview-view h3,
+.markdown-source-view.mod-cm6 .cm-header-3 {
+  font-size: 1.12rem;
+  line-height: 1.3;
+  margin-block: 1rem 0.25rem;
+}
+
+.markdown-rendered mark,
+.cm-highlight {
+  background-color: var(--text-highlight-bg);
+  color: inherit;
+  border-radius: 3px;
+  padding: 0 0.08em;
+}
+
+.markdown-rendered a,
+.cm-hmd-internal-link,
+.cm-link {
+  text-decoration: none !important;
+}
+
+.markdown-rendered u,
+.cm-underline {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  text-decoration-color: var(--text-accent);
+}
+
+.markdown-preview-view code,
+.cm-inline-code,
+.markdown-source-view.mod-cm6 .cm-inline-code {
+  font-family: var(--font-monospace-theme);
+  font-weight: 400;
+  background: var(--background-secondary-alt);
+  color: var(--text-normal);
+  border-radius: 5px;
+  padding: 0.08em 0.28em;
+}
+
+.markdown-preview-view pre,
+.markdown-source-view.mod-cm6 .HyperMD-codeblock {
+  font-family: var(--font-monospace-theme);
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+}
+
+.tag {
+  border-radius: 999px;
+  padding: 0.08rem 0.45rem;
+  font-size: 0.82em;
+  font-weight: 400;
+  border: 1px solid transparent;
+}
+
+.nav-folder-title,
+.nav-file-title {
+  border-radius: 6px;
+  padding-block: 4px;
+}
+
+.nav-file-title.is-active,
+.tree-item-self.is-active {
+  background: var(--tag-background);
+  color: var(--text-normal);
+  font-weight: 500;
+}
+
+.metadata-container {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+thead {
+  background: var(--background-secondary-alt);
+}
+
+tbody tr:nth-child(even) {
+  background: var(--background-secondary);
+}
+
+.button-default,
+.button-blue,
+button.button-default,
+button.button-blue {
+  border-radius: 999px !important;
+  border: 1px solid var(--background-modifier-border) !important;
+  background: var(--tag-background) !important;
+  color: var(--text-normal) !important;
+  font-family: var(--font-interface-theme) !important;
+  font-weight: 400 !important;
+  padding: 0.35rem 0.75rem !important;
+  box-shadow: none !important;
+}
+
+body.theme-dark .button-default,
+body.theme-dark .button-blue,
+body.theme-dark button.button-default,
+body.theme-dark button.button-blue {
+  color: var(--bear-heading-color) !important;
+  border-color: rgba(143, 197, 255, 0.35) !important;
+}

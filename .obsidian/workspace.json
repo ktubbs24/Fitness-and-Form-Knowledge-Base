@@ -1,0 +1,269 @@
+{
+  "main": {
+    "id": "1c71edfd2bd27576",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b9c31e4f1bae0fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "32b83dd3d283dfa3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PORTLAND FITNESS STEWARD STARTUP GUIDE.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "PORTLAND FITNESS STEWARD STARTUP GUIDE"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3b6bc49da26df8db",
+    "type": "split",
+    "children": [
+      {
+        "id": "41d586ebbf91a326",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c010cd4ea5ac4b45",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5974c79584061cc2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2fe518aac6aff101",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "ccedb2a4e71b283b",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "notebook-navigator",
+              "title": "Notebook Navigator"
+            }
+          },
+          {
+            "id": "0b47fe0669b918e2",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 664.5
+  },
+  "right": {
+    "id": "51e5cc6641aac4e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf546651b26026a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b48227851f15a56",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "PORTLAND FITNESS STEWARD STARTUP GUIDE.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for PORTLAND FITNESS STEWARD STARTUP GUIDE"
+            }
+          },
+          {
+            "id": "30ced3e6bf7d90cf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "PORTLAND FITNESS STEWARD STARTUP GUIDE.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from PORTLAND FITNESS STEWARD STARTUP GUIDE"
+            }
+          },
+          {
+            "id": "d7eafa555ad93d5e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e9a794bfe6a7f8bc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9c50181a1bc1c4cf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "PORTLAND FITNESS STEWARD STARTUP GUIDE.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of PORTLAND FITNESS STEWARD STARTUP GUIDE"
+            }
+          },
+          {
+            "id": "fda0862d6e43ed5e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "notebook-navigator:Notebook Navigator": false,
+      "obsidian42-brat:BRAT": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "c010cd4ea5ac4b45",
+  "lastOpenFiles": [
+    "Fitness-and-Form-Knowledge-Base",
+    "START HERE - Vault Operating Manual.md",
+    "PORTLAND FITNESS STEWARD STARTUP GUIDE.md",
+    "01 Workouts (raw logs)/Calisthenics/Calisthenics Hub.md",
+    "01 Workouts (raw logs)/Calisthenics/Calisthenics.md",
+    "00 Daily Logs/2026/2026.md",
+    "00 Daily Logs/2026/05 May/2026-05-13.md",
+    "Fitness Home.md",
+    "Movement Archive Home.canvas",
+    "01 Workouts (raw logs)/Striking/Boxing/Boxing Progression.md",
+    "01 Workouts (raw logs)/Striking/Boxing/Boxing.md",
+    "01 Workouts (raw logs)/01 Workouts (raw logs).md",
+    "01 Workouts (raw logs)/Workouts.md",
+    "01 Workouts (raw logs)/Strength Training/Sessions/Workout - 2026-04-23.md",
+    "01 Workouts (raw logs)/Skating/Skating Hub.md",
+    "01 Workouts (raw logs)/Calisthenics/Leg Raises/Leg Raises.md",
+    "01 Workouts (raw logs)/Calisthenics/Leg Raises/Leg Raises Progression.md",
+    "01 Workouts (raw logs)/Calisthenics/Flex Arm Hang/Flex Arm Hang.md",
+    "01 Workouts (raw logs)/Calisthenics/Flex Arm Hang",
+    "02 Observations (raw thinking)/Surprising observations after training/I really like doing boxing and Muay Thai on the same day.md",
+    "02 Observations (raw thinking)/_Observations Hub.md",
+    "02 Observations (raw thinking)/Body Observations.md",
+    "02 Observations (raw thinking)/Metrics and Measurements.md",
+    "02 Observations (raw thinking)/Progress.md",
+    "03 Essays (refined writing)/Body Structure vs Fat Loss.md",
+    "03 Essays (refined writing)/Essays Hub.md",
+    "03 Essays (refined writing)/Motherhood and Discipline.md",
+    "03 Essays (refined writing)/Non-performative Training.md",
+    "02 Observations (raw thinking)/Untitled",
+    "02 Observations (raw thinking)/Bodily Tracking",
+    "02 Observations (raw thinking)/Surprising observations after training",
+    "07 Fitness Site (public)/16 Decision Making",
+    "07 Fitness Site (public)/15 Skill Acquisition",
+    "07 Fitness Site (public)/14 Environment",
+    "07 Fitness Site (public)/13 Psychology",
+    "07 Fitness Site (public)/12 Physiology",
+    "07 Fitness Site (public)/11 Failed Ideas"
+  ]
+}
