@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "this is just a test note",
-      "path": "this is just a test note.md"
+      "basename": "✅ Additional things I want to change to this vault using codex",
+      "path": "✅ Additional things I want to change to this vault using codex.md"
     },
     {
-      "basename": "06 Bases",
-      "path": "06 Bases/06 Bases.md"
+      "basename": "Movement Archive Home",
+      "path": "Movement Archive Home.canvas"
+    },
+    {
+      "basename": "Fitness Home",
+      "path": "Fitness Home.md"
     },
     {
       "basename": "PORTLAND FITNESS STEWARD STARTUP GUIDE",
@@ -15,6 +19,10 @@
     {
       "basename": "START HERE - Vault Operating Manual",
       "path": "START HERE - Vault Operating Manual.md"
+    },
+    {
+      "basename": "06 Bases",
+      "path": "06 Bases/06 Bases.md"
     },
     {
       "basename": "Calisthenics Hub",
@@ -31,14 +39,6 @@
     {
       "basename": "2026-05-13",
       "path": "00 Daily Logs/2026/05 May/2026-05-13.md"
-    },
-    {
-      "basename": "Fitness Home",
-      "path": "Fitness Home.md"
-    },
-    {
-      "basename": "Movement Archive Home",
-      "path": "Movement Archive Home.canvas"
     },
     {
       "basename": "Boxing Progression",
@@ -195,10 +195,6 @@
     {
       "basename": "Dashboards Hub",
       "path": "05 Dashboards/Dashboards Hub.md"
-    },
-    {
-      "basename": "✅ Additional things I want to change to this vault using codex",
-      "path": "✅ Additional things I want to change to this vault using codex.md"
     }
   ],
   "omittedPaths": [],

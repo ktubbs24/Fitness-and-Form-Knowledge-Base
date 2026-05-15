@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "this is just a test note.md",
+                "file": "✅ Additional things I want to change to this vault using codex.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "this is just a test note"
+              "title": "✅ Additional things I want to change to this vault using codex"
             }
           }
         ],
@@ -254,17 +254,17 @@
   },
   "active": "4d61be1cfc1d0b6a",
   "lastOpenFiles": [
+    "Movement Archive Home.canvas",
+    "Fitness Home.md",
+    "PORTLAND FITNESS STEWARD STARTUP GUIDE.md",
+    "START HERE - Vault Operating Manual.md",
     "06 Bases/06 Bases.md",
     "this is just a test note.md",
-    "PORTLAND FITNESS STEWARD STARTUP GUIDE.md",
     "Fitness-and-Form-Knowledge-Base",
-    "START HERE - Vault Operating Manual.md",
     "01 Workouts (raw logs)/Calisthenics/Calisthenics Hub.md",
     "01 Workouts (raw logs)/Calisthenics/Calisthenics.md",
     "00 Daily Logs/2026/2026.md",
     "00 Daily Logs/2026/05 May/2026-05-13.md",
-    "Fitness Home.md",
-    "Movement Archive Home.canvas",
     "01 Workouts (raw logs)/Striking/Boxing/Boxing Progression.md",
     "01 Workouts (raw logs)/Striking/Boxing/Boxing.md",
     "01 Workouts (raw logs)/01 Workouts (raw logs).md",
@@ -282,7 +282,6 @@
     "02 Observations (raw thinking)/Progress.md",
     "03 Essays (refined writing)/Body Structure vs Fat Loss.md",
     "03 Essays (refined writing)/Essays Hub.md",
-    "03 Essays (refined writing)/Motherhood and Discipline.md",
     "02 Observations (raw thinking)/Untitled",
     "02 Observations (raw thinking)/Bodily Tracking",
     "02 Observations (raw thinking)/Surprising observations after training",
