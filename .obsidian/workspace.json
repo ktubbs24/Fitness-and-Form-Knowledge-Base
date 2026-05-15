@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "PORTLAND FITNESS STEWARD STARTUP GUIDE"
             }
+          },
+          {
+            "id": "4d61be1cfc1d0b6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "this is just a test note.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "this is just a test note"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -227,11 +252,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c010cd4ea5ac4b45",
+  "active": "4d61be1cfc1d0b6a",
   "lastOpenFiles": [
+    "06 Bases/06 Bases.md",
+    "this is just a test note.md",
+    "PORTLAND FITNESS STEWARD STARTUP GUIDE.md",
     "Fitness-and-Form-Knowledge-Base",
     "START HERE - Vault Operating Manual.md",
-    "PORTLAND FITNESS STEWARD STARTUP GUIDE.md",
     "01 Workouts (raw logs)/Calisthenics/Calisthenics Hub.md",
     "01 Workouts (raw logs)/Calisthenics/Calisthenics.md",
     "00 Daily Logs/2026/2026.md",
@@ -256,7 +283,6 @@
     "03 Essays (refined writing)/Body Structure vs Fat Loss.md",
     "03 Essays (refined writing)/Essays Hub.md",
     "03 Essays (refined writing)/Motherhood and Discipline.md",
-    "03 Essays (refined writing)/Non-performative Training.md",
     "02 Observations (raw thinking)/Untitled",
     "02 Observations (raw thinking)/Bodily Tracking",
     "02 Observations (raw thinking)/Surprising observations after training",
@@ -264,7 +290,6 @@
     "07 Fitness Site (public)/15 Skill Acquisition",
     "07 Fitness Site (public)/14 Environment",
     "07 Fitness Site (public)/13 Psychology",
-    "07 Fitness Site (public)/12 Physiology",
-    "07 Fitness Site (public)/11 Failed Ideas"
+    "07 Fitness Site (public)/12 Physiology"
   ]
 }

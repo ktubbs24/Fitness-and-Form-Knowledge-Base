@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Untitled",
-      "path": "Untitled.md"
+      "basename": "this is just a test note",
+      "path": "this is just a test note.md"
+    },
+    {
+      "basename": "06 Bases",
+      "path": "06 Bases/06 Bases.md"
     },
     {
       "basename": "PORTLAND FITNESS STEWARD STARTUP GUIDE",
@@ -195,10 +199,6 @@
     {
       "basename": "✅ Additional things I want to change to this vault using codex",
       "path": "✅ Additional things I want to change to this vault using codex.md"
-    },
-    {
-      "basename": "Client Allergy Template",
-      "path": "Templates/Client Allergy Template.md"
     }
   ],
   "omittedPaths": [],
